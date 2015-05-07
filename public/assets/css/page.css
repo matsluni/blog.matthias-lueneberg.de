@@ -117,6 +117,7 @@ section.module.parallax {
     -o-background-size: cover;
     background-size: cover;
 }
+
 section.module.parallax h1 {
     color: rgba(255, 255, 255, 0.8);
     font-size: 48px;
@@ -131,6 +132,65 @@ section.module.parallax h1 {
 section.module.content {
     padding: 40px 0;
 }
+
+@media (max-width: 600px) {
+    section.module h2 {
+        font-family: "Roboto Slab", serif;
+        font-size: 20px;
+        margin: 0 20px 20px;
+    }
+
+    section.module.parallax h1 {
+        font-size: 28px;
+    }
+
+    .container {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    section.module p {
+        font-size: 12px;
+        font-weight: 200;
+        text-align: justify;
+        margin: 0 20px 40px;
+    }
+
+    section a {
+        font-size: 12px;
+        margin: 0 20px;
+    }
+}
+
+@media (min-width: 601px) and (max-width: 900px) {
+    section.module h2 {
+        font-family: "Roboto Slab", serif;
+        font-size: 24px;
+        margin: 0 20px 20px;
+    }
+
+    section.module.parallax h1 {
+        font-size: 36px;
+    }
+
+    .container {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    section.module p {
+        font-size: 14px;
+        font-weight: 200;
+        text-align: justify;
+        margin: 0 20px 40px;
+    }
+
+    section a {
+        font-size: 14px;
+        margin: 0 20px;
+    }
+}
+
 
 section.module.parallax-1 {
     background-image: url("../images/namtha-jungle.jpg");
