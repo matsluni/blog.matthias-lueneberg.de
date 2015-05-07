@@ -1,0 +1,257 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+body {
+    background-color: #ffffff;
+    color: #787878;
+    font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+header {
+    height: 450px;
+    background:url(../images/title.jpg) no-repeat center center;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+}
+
+header > h1 {
+    text-align: center;
+    font-size: 48px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.5em;
+    color: #ffffff;
+    clear: both;
+    padding-top: 150px;
+}
+
+h1 span {
+    display: inline-block;
+    padding: 0.2em 0.5em;
+    border: #ffffff solid 10px;
+}
+
+.kicker {
+    text-align: center;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+
+
+/* Parallax effekt*/
+
+.wrapper {
+    width: 100%;
+    margin: 0 auto;
+}
+
+main {
+    display: block;
+    background-color: #fff;
+
+}
+
+main.container {
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+section a {
+    font-size: 16px;
+}
+
+section {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+section.module h2 {
+    margin-bottom: 20px;
+    font-family: "Roboto Slab", serif;
+    font-size: 30px;
+}
+
+section.module p {
+    margin-bottom: 40px;
+    font-size: 18px;
+    font-weight: 300;
+    text-align: justify;
+}
+
+section.module.parallax {
+    height: 600px;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+section.module.parallax h1 {
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 48px;
+    line-height: 600px;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    letter-spacing: 0.2em;
+}
+
+section.module.content {
+    padding: 40px 0;
+}
+
+section.module.parallax-1 {
+    background-image: url("../images/namtha-jungle.jpg");
+}
+section.module.parallax-2 {
+    background-image: url("../images/namtha-pagoda.jpg");
+}
+section.module.parallax-3 {
+    background-image: url("../images/namtha-market.jpg");
+}
+section.module.parallax-4 {
+    background-image: url("../images/namtha-bug.jpg");
+}
+section.module.parallax-5 {
+    background-image: url("../images/prabang-view.jpg");
+}
+section.module.parallax-6 {
+    background-image: url("../images/prabang-mekong.jpg");
+}
+section.module.parallax-7 {
+    background-image: url("../images/prabang-fruits.jpg");
+}
+
+/* Parallax effekt*/
+
+
+.container {
+    width: 100%;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.posts-container {
+    width: 100%;
+    display: inline-block;
+    margin: 40px 0px 40px;
+}
+
+.post-header {
+    margin: 40px 20px 0px 0px;
+    font-size: 28px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+}
+
+.post {
+    display: inline-block;
+    margin: 20px 20px 0px 0px;
+}
+
+.posts-thumb {
+    float: left;
+    margin-right: 20px;
+}
+
+.posts-text {
+    margin-bottom: 20px;
+}
+
+.posts-text a {
+    color: #787878;
+    font-size: 16px;
+}
+.posts-text a:visited {
+    color: #787878;
+}
+
+.posts-text p {
+    font-size: 16px;
+}
+
+.posts-text a:hover {
+    text-decoration: underline;
+}
+
+h3 {
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    font-size: 22px;
+}
+
+/* footer and legal */
+
+footer {
+    display: block;
+    height: 100px;
+    padding-top: 50px;
+    margin: 0 auto;
+    border-top: 1px solid #e1e1e1;
+    text-transform: uppercase;
+    font-weight: 600;
+    width: 100%;
+    max-width: 900px;
+}
+
+.legal-text {
+    margin: 40px auto;
+    width: 100%;
+    max-width: 900px;
+    text-align: justify;
+}
+
+.legal {
+    float: right;
+}
+
+a {
+    text-decoration: none;
+    color: lightsteelblue;
+}
+
+a:visited {
+    color: lightsteelblue;
+}
+
+.legal ul {
+    list-style: none;
+}
+
+.legal ul li {
+    display: inline;
+    padding-left: 10px;
+}
