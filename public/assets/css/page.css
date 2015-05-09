@@ -196,18 +196,26 @@ section.module.parallax-7 {
 
     section.module.parallax-1 {
         background-image: url("../images/mobile/namtha-jungle.jpg");
+        width:315px;
+        height:480px;
     }
 
     section.module.parallax-2 {
         background-image: url("../images/mobile/namtha-pagoda.jpg");
+        width: 406px;
+        height: 480px;
     }
 
     section.module.parallax-3 {
         background-image: url("../images/mobile/namtha-market.jpg");
+        width: 373px;
+        height: 480px;
     }
 
     section.module.parallax-4 {
         background-image: url("../images/mobile/namtha-bug.jpg");
+        width: 582px;
+        height: 480px;
     }
 }
 
