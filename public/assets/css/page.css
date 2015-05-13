@@ -133,7 +133,7 @@ section.module.content {
     padding: 40px 0;
 }
 
-
+/* 1-luang-namtha*/
 section.module.parallax-1 {
     background-image: url("../images/namtha-jungle.jpg");
 }
@@ -146,14 +146,15 @@ section.module.parallax-3 {
 section.module.parallax-4 {
     background-image: url("../images/namtha-bug.jpg");
 }
+/* 2-Mekong-cruise*/
 section.module.parallax-5 {
-    background-image: url("../images/prabang-view.jpg");
+    background-image: url("../images/mekong-river.jpg");
 }
 section.module.parallax-6 {
-    background-image: url("../images/prabang-mekong.jpg");
+    background-image: url("../images/mekong-fisher.jpg");
 }
 section.module.parallax-7 {
-    background-image: url("../images/prabang-fruits.jpg");
+    background-image: url("../images/mekong-river-hills.jpg");
 }
 
 /* Parallax effekt*/
@@ -197,17 +198,25 @@ section.module.parallax-7 {
     section.module.parallax-1 {
         background-image: url("../images/mobile/namtha-jungle.jpg");
     }
-
     section.module.parallax-2 {
         background-image: url("../images/mobile/namtha-pagoda.jpg");
     }
-
     section.module.parallax-3 {
         background-image: url("../images/mobile/namtha-market.jpg");
     }
-
     section.module.parallax-4 {
         background-image: url("../images/mobile/namtha-bug.jpg");
+    }
+
+    /* 2-Mekong-cruise*/
+    section.module.parallax-5 {
+        background-image: url("../images/mobile/mekong-river.jpg");
+    }
+    section.module.parallax-6 {
+        background-image: url("../images/mobile/mekong-fisher.jpg");
+    }
+    section.module.parallax-7 {
+        background-image: url("../images/mobile/mekong-river-hills.jpg");
     }
 }
 
