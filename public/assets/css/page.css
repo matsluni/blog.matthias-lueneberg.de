@@ -133,6 +133,20 @@ section.module.content {
     padding: 40px 0;
 }
 
+a {
+    text-decoration: none;
+    color: lightsteelblue;
+}
+
+a:visited {
+    color: lightsteelblue;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
 #disqus_thread {
     max-width: 900px;
     margin: 0 auto;
@@ -176,8 +190,7 @@ section.module.parallax-7 {
     }
 
     .container {
-        width: 100%;
-        margin: 0 auto;
+        margin: 0 20px;
     }
 
     section.module p {
@@ -265,14 +278,6 @@ section.module.parallax-7 {
 }
 
 
-
-
-.container {
-    width: 100%;
-    max-width: 900px;
-    margin: 0 auto;
-}
-
 .posts-container {
     width: 100%;
     display: inline-block;
@@ -348,14 +353,7 @@ footer {
     float: right;
 }
 
-a {
-    text-decoration: none;
-    color: lightsteelblue;
-}
 
-a:visited {
-    color: lightsteelblue;
-}
 
 .legal ul {
     list-style: none;
