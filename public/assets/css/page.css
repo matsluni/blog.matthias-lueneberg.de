@@ -196,27 +196,27 @@ section.module.parallax-7 {
     }
 
     section.module.parallax-1 {
-        background-image: url("../images/mobile/namtha-jungle.jpg");
+        background: url("../images/mobile/namtha-jungle.jpg") no-repeat center center;
     }
     section.module.parallax-2 {
-        background-image: url("../images/mobile/namtha-pagoda.jpg");
+        background: url("../images/mobile/namtha-pagoda.jpg") no-repeat center center;
     }
     section.module.parallax-3 {
-        background-image: url("../images/mobile/namtha-market.jpg");
+        background: url("../images/mobile/namtha-market.jpg") no-repeat center center;
     }
     section.module.parallax-4 {
-        background-image: url("../images/mobile/namtha-bug.jpg");
+        background: url("../images/mobile/namtha-bug.jpg") no-repeat center center;
     }
 
     /* 2-Mekong-cruise*/
     section.module.parallax-5 {
-        background-image: url("../images/mobile/mekong-river.jpg");
+        background: url("../images/mobile/mekong-river.jpg") no-repeat center center;
     }
     section.module.parallax-6 {
-        background-image: url("../images/mobile/mekong-fisher.jpg");
+        background: url("../images/mobile/mekong-fisher.jpg") no-repeat center center;
     }
     section.module.parallax-7 {
-        background-image: url("../images/mobile/mekong-river-hills.jpg");
+        background: url("../images/mobile/mekong-river-hills.jpg") no-repeat center center;
     }
 }
 
