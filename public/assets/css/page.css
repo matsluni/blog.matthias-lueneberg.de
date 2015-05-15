@@ -133,6 +133,11 @@ section.module.content {
     padding: 40px 0;
 }
 
+#disqus_thread {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
 /* 1-luang-namtha*/
 section.module.parallax-1 {
     background-image: url("../images/namtha-jungle.jpg");
@@ -195,6 +200,11 @@ section.module.parallax-7 {
         -moz-background-size: cover;
     }
 
+
+    #disqus_thread {
+        margin: 0 20px 40px;
+    }
+
     section.module.parallax-1 {
         background: url("../images/mobile/namtha-jungle.jpg") no-repeat center center;
     }
@@ -247,6 +257,11 @@ section.module.parallax-7 {
         font-size: 14px;
         margin: 0 20px;
     }
+
+    #disqus_thread {
+        margin: 0 20px 40px;
+    }
+
 }
 
 
