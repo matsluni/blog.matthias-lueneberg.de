@@ -175,6 +175,20 @@ section.module.parallax-6 {
 section.module.parallax-7 {
     background-image: url("../images/mekong-river-hills.jpg");
 }
+/* 3-Luang Prabang */
+section.module.parallax-8 {
+    background-image: url("../images/prabang-view.jpg");
+}
+section.module.parallax-9 {
+    background-image: url("../images/prabang-night-market.jpg");
+}
+section.module.parallax-10 {
+    background-image: url("../images/prabang-wat.jpg");
+}
+section.module.parallax-11 {
+    background-image: url("../images/prabang-monk.jpg");
+}
+
 
 /* Parallax effekt*/
 
