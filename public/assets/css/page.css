@@ -33,6 +33,8 @@ header {
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
+    position: relative;
+    z-index: -5; /* for css button to work */
 }
 
 header > h1 {
@@ -246,6 +248,7 @@ footer ul {
     padding-left: 10px;
 }
 
+
 /* Parallax effekt*/
 
 @media (max-width: 600px) {
@@ -438,5 +441,97 @@ h3 {
     text-transform: uppercase;
     letter-spacing: 0.1em;
     font-size: 22px;
+}
+
+/* Maps integration */
+
+.travel-map-btn-container button {
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+#travel-map {
+    position: relative;
+    width: 100%;
+    z-index: -3;
+}
+
+#map-canvas {
+    width: 100%;
+    z-index: -2;
+    background: #90d5f6;
+}
+
+.travel-location-details {
+    width: 100%;
+    background: #ffffff;
+    height: 35px;
+    color: #252525 !important;
+    font-size: 15px;
+    padding: 10px 0 0 0;
+    font-weight: 400;
+}
+
+.travel-map-btn-container {
+    z-index: -4;
+    width: 100%;
+}
+
+.travel-map-btn-container button {
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+    font-size: 14px;
+    text-transform: uppercase;
+    padding: 2px 5px;
+    border: 0;
+    color: #ef4b36;
+    position: absolute;
+    background: transparent;
+    height: 25px;
+    width: 160px;
+    z-index: 1342343243242343;
+}
+
+#arrow-pos {
+    height: 45px;
+    width: 100px;
+    position: absolute;
+    left: 50%;
+    margin-left: -50px;
+}
+
+.arrow-down {
+    width: 0;
+    height: 0;
+    border-left: 80px solid transparent;
+    border-right: 80px solid transparent;
+    border-top: 35px solid #ffffff;
+}
+
+.arrow-up {
+    width: 0;
+    height: 0;
+    border-left: 80px solid transparent;
+    border-right: 80px solid transparent;
+    border-bottom: 35px solid #ffffff;
+}
+
+.close-btn {
+    height: 45px;
+    margin: -70px 0 0 0px;
+}
+.close-btn button {
+    padding-top: 14px;
+    font-size:12px;
+    height: 30px;
+}
+
+#location-toggle:hover {
+    text-decoration: underline;
+    cursor: pointer;
 }
 
