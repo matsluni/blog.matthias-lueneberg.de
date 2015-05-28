@@ -261,19 +261,19 @@ section.module.parallax-12 {
 
     /* 3-Luang Prabang */
     section.module.parallax-8 {
-        background-image: url("../images/mobile/prabang-wat.jpg");
+        background: url("../images/mobile/prabang-wat.jpg") no-repeat center center;
     }
     section.module.parallax-9 {
-        background-image: url("../images/mobile/prabang-night-market.jpg");
+        background: url("../images/mobile/prabang-night-market.jpg") no-repeat center center;
     }
     section.module.parallax-10 {
-        background-image: url("../images/mobile/prabang-view.jpg");
+        background: url("../images/mobile/prabang-view.jpg") no-repeat center center;
     }
     section.module.parallax-11 {
-        background-image: url("../images/mobile/prabang-monk.jpg");
+        background: url("../images/mobile/prabang-monk.jpg") no-repeat center center;
     }
     section.module.parallax-12 {
-        background-image: url("../images/mobile/prabang-ikon.jpg");
+        background: url("../images/mobile/prabang-ikon.jpg") no-repeat center center;
     }
 }
 
