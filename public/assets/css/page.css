@@ -177,13 +177,13 @@ section.module.parallax-7 {
 }
 /* 3-Luang Prabang */
 section.module.parallax-8 {
-    background-image: url("../images/prabang-view.jpg");
+    background-image: url("../images/prabang-wat.jpg");
 }
 section.module.parallax-9 {
     background-image: url("../images/prabang-night-market.jpg");
 }
 section.module.parallax-10 {
-    background-image: url("../images/prabang-wat.jpg");
+    background-image: url("../images/prabang-view.jpg");
 }
 section.module.parallax-11 {
     background-image: url("../images/prabang-monk.jpg");
@@ -257,6 +257,23 @@ section.module.parallax-12 {
     }
     section.module.parallax-7 {
         background: url("../images/mobile/mekong-river-hills.jpg") no-repeat center center;
+    }
+
+    /* 3-Luang Prabang */
+    section.module.parallax-8 {
+        background-image: url("../images/mobile/prabang-wat.jpg");
+    }
+    section.module.parallax-9 {
+        background-image: url("../images/mobile/prabang-night-market.jpg");
+    }
+    section.module.parallax-10 {
+        background-image: url("../images/mobile/prabang-view.jpg");
+    }
+    section.module.parallax-11 {
+        background-image: url("../images/mobile/prabang-monk.jpg");
+    }
+    section.module.parallax-12 {
+        background-image: url("../images/mobile/prabang-ikon.jpg");
     }
 }
 
