@@ -192,6 +192,17 @@ section.module.parallax-12 {
     background-image: url("../images/prabang-ikon.jpg");
 }
 
+/* 4 Vang Vieng */
+section.module.parallax-13 {
+    background-image: url("../images/vangvieng-river.jpg");
+}
+section.module.parallax-14 {
+    background-image: url("../images/vangvieng-tubing.jpg");
+}
+section.module.parallax-15 {
+    background-image: url("../images/vangvieng-mountain.jpg");
+}
+
 
 /* Parallax effekt*/
 
@@ -274,6 +285,17 @@ section.module.parallax-12 {
     }
     section.module.parallax-12 {
         background: url("../images/mobile/prabang-ikon.jpg") no-repeat center center;
+    }
+
+    /* 4 Vang Vieng */
+    section.module.parallax-13 {
+        background: url("../images/mobile/vangvieng-river.jpg") no-repeat center center;
+    }
+    section.module.parallax-14 {
+        background: url("../images/mobile/vangvieng-tubing.jpg") no-repeat center center;
+    }
+    section.module.parallax-15 {
+        background: url("../images/mobile/vangvieng-mountain.jpg") no-repeat center center;
     }
 }
 
