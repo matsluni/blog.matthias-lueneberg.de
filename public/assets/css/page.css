@@ -389,13 +389,17 @@ h3 {
 footer {
     display: block;
     height: 100px;
-    padding-top: 50px;
+    padding-top: 30px;
     margin: 0 auto;
     border-top: 1px solid #e1e1e1;
     text-transform: uppercase;
     font-weight: 600;
     width: 100%;
     max-width: 900px;
+}
+
+footer ul {
+    list-style: none;
 }
 
 .legal-text {
@@ -405,14 +409,17 @@ footer {
     text-align: justify;
 }
 
-.legal {
-    float: right;
+.social {
+    float: left;
 }
 
+.social ul li {
+    display: inline;
+    padding-right: 20px;
+}
 
-
-.legal ul {
-    list-style: none;
+.legal {
+    float: right;
 }
 
 .legal ul li {
