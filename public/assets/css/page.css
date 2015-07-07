@@ -151,7 +151,7 @@ a:visited {
 
 #disqus_thread {
     max-width: 900px;
-    margin: 0 auto;
+    margin: 20px auto;
 }
 
 /* 1-luang-namtha*/
@@ -203,6 +203,17 @@ section.module.parallax-14 {
 }
 section.module.parallax-15 {
     background-image: url("../images/vangvieng-mountain.jpg");
+}
+
+/* 5 Vientiane */
+section.module.parallax-16 {
+    background-image: url("../images/vientiane-arc.jpg");
+}
+section.module.parallax-17 {
+    background-image: url("../images/vientiane-wat.jpg");
+}
+section.module.parallax-18 {
+    background-image: url("../images/vientiane-buddha.jpg");
 }
 
 /* footer and legal */
@@ -341,6 +352,17 @@ footer ul {
     }
     section.module.parallax-15 {
         background: url("../images/mobile/vangvieng-mountain.jpg") no-repeat center center;
+    }
+
+    /* 5 Vientiane */
+    section.module.parallax-16 {
+        background: url("../images/vientiane-arc.jpg") no-repeat center center;
+    }
+    section.module.parallax-17 {
+        background: url("../images/vientiane-wat.jpg") no-repeat center center;
+    }
+    section.module.parallax-18 {
+        background: url("../images/vientiane-buddha.jpg") no-repeat center center;
     }
 
     footer {
