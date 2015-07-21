@@ -102,7 +102,7 @@ function travelMap() {
             position: new google.maps.LatLng( locArray[1], locArray[2] ),
             map: map,
             draggable: false,
-            labelContent: travelLocLabel,
+            //labelContent: travelLocLabel,
             labelAnchor: setLabelAnchor,
             labelClass: "marker-label",// the CSS class for the label
             labelZIndex: i+1,
